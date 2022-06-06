@@ -1,0 +1,373 @@
+body {
+    display: flex;
+    flex-direction: column;;
+}
+
+#head {
+    background-color: rgb(231, 236, 255);
+    position: relative;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#head p {
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#head span {
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: normal;
+    color: gray;
+}
+
+form {
+    padding: 20px;
+    background-color: rgb(231, 236, 255);
+    width: 800px;
+    height: 300px;
+    border-style: groove;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 500px;
+}
+
+form div * {
+    width: 360px;
+    font-size: 20px;
+}
+
+form label {
+    font-weight: bold;
+    line-height: 35px;
+}
+
+form input {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+form textarea {
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+form button {
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: absolute;
+    right: 20px;
+}
+
+#footer {
+    align-self: center;
+}
+
+#footer p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+hr {
+    border-top: 1px solid;
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    line-height: 40px;
+    display: inline-block;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header button {
+    background-color: blue;
+    color: white;
+    width: 19%;
+    height: 40px;
+    margin: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#div1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#div1 p {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+vl {
+    border-left: 3px solid;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+}
+
+#div1 #par1 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#div2 {
+    position: absolute;
+    right: 30px;
+}
+
+#div2 p {
+    font-size: 20px;
+}
+
+#div3 {
+    position: relative;
+    align-self: center;
+    width: 98%;
+    height: 500px;
+    background-color: lightblue;
+}
+
+#par2 {
+    font-size: 150px;
+    padding: 50px;
+    background-color: green;
+    text-align: center;
+    border-radius: 30px;
+    width: 1600px;
+    transform: skew(30deg, -7deg);
+    position: absolute;
+    right: 70px;
+    top: -30px;
+    color: white;
+}
+
+#div4 {
+    position: absolute;
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+    top: 40px;
+    left: 40px;
+}
+
+#par3 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+#par4 {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-left: 5px;
+}
+
+#div3 hr {
+    border-top: 2px white;
+    width: 490px;
+    border-style: dotted;
+}
+
+#div5 {
+    position: absolute;
+    right: 50px;
+    bottom: -50px;
+    background-color: blue;
+    width: 1000px;
+    height: 100px;
+}
+
+#par5 {
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+#div6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    width: 600px;
+    height: 700px;
+}
+
+.parag1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.hr1 {
+    border-top: 2px black;
+    width: 500px;
+    border-style: dotted;
+}
+
+.divv {
+
+    height: 200px;
+    width: 500px;
+    border-style: double;
+    border-color: white;
+    align-self: center;
+    background-color: rgb(92, 91, 91);
+}
+
+.parag2 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.anchor {
+    font-size: 30px;
+    align-self: flex-end;
+}
+
+#hr2 {
+    border-top: 4px dashed black;
+    width: 99%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#div7 {
+    display: flex;
+    flex-direction: row;
+}
+
+#div8 {
+    height: 300px;
+    width: 500px;
+    border-style: double;
+    border-color: white;
+    align-self: center;
+    background-color: rgb(92, 91, 91);
+    margin-left: 20px;
+}
+
+#div9 {
+    width: 600px;
+    margin-left: 50px;
+}
+
+#par6 {
+    font-size: 30px;
+    text-align: left;
+}
+
+#par7 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+#anch {
+    position: relative;
+    left: 300px;
+}
+
+#div10 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    margin-left: 20px;
+    align-items: flex-start;
+    width: 600px;
+    padding-left: 20px;
+}
+
+.anchor2 {
+    text-align: left;
+    border-bottom: 1px solid blue;
+    width: 400px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#hr3 {
+    border-top: 2px dashed black;
+    width: 580px;
+}
+
+#par8 {
+    font-size: 30px;
+    line-height: 15px;
+}
+
+#hr4 {
+    border-top: 2px dotted black;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1150px;
+}
+
+#div11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divv2 {
+    height: 200px;
+    width: 19%;
+    margin: 5px;
+    border-style: double;
+    border-color: white;
+    background-color: rgb(92, 91, 91);
+}
+
+footer {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 30px; */
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
